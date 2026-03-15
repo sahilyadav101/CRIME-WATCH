@@ -1,0 +1,19 @@
+/* This makes the route line glow on the dark map */
+.leaflet-interactive {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    filter: drop-shadow(0 0 8px #00f2ff);
+}
+
+/* Force the heatmap to show brightly */
+.leaflet-heatmap-layer {
+    z-index: 5;
+}
+
+/* Ensure the Search Button is visible and bright */
+.btn-route {
+    background: #00f2ff !important;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.5);
+    color: black !important;
+    font-weight: 900;
+}
